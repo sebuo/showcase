@@ -1,11 +1,13 @@
 ## progression
 ### object detection
 I trained a detection yolov8 model with labeled data that I have recived.
-!(img)[output-dect.gif]
+![img](output-dect.gif)
+
 This detection is made on a test video with a duration of 23s.
 ### segmentation
-For segmentation I used yolov8-seg model. The dataset was made with labelme. I plan to use it on the crops of the detection model.
-!(img)[output-seg.gif]
+For segmentation I used yolov8-seg model. The dataset was made with labelme. I plan to use it on the crops of the detection model. 
+
+![img2](output-seg.gif)
 
 ### feature extraction
 I make a dataframe analyzing the coutours of the segmented parts. Most of the data I get with fit of the smallest possible rectangle or an ellipse. The data for the neck still needs improvents.
